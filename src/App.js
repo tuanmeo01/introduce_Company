@@ -2,7 +2,10 @@ import './App.css';
 import Nav from './view/nav/Nav';
 import Home from './view/home/Home';
 import Hire from './view/hire/Hire';
-import About from './view/about/About';
+import Faq from './view/faq/Faq';
+import Footer from './footer/Footer';
+import Service from './view/service/Service';
+import Team from './view/team/Team'
 import {
   BrowserRouter,
   Switch,
@@ -21,10 +24,17 @@ function App() {
           <Route path="/hire">
             <Hire />
           </Route>
-          <Route path="/about">
-            < About/>
+          <Route path="/faq">
+            < Faq/>
           </Route>
+          <Route path="/service">
+          <Service/>
+          </Route>  
+          <Route path="/team">
+          <Team/>
+          </Route> 
         </Switch>
+      <Footer/>
       </header>
     </div>
   </BrowserRouter>

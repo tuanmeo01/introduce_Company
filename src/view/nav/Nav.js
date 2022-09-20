@@ -9,7 +9,9 @@ import {
             <div className="topnav">
             <NavLink to="/" activeClassName="active" exact={true}>Home</NavLink>
             <NavLink to="/hire" activeClassName="active" exact={true}>Hire</NavLink>
-            <NavLink to="/about" activeClassName="active" exact={true}>About</NavLink>
+            <NavLink to="/service" activeClassName="active" exact={true}>Service</NavLink>
+            <NavLink to="/team" activeClassName="active" exact={true}>Team</NavLink>
+            <NavLink to="/faq" activeClassName="active" exact={true}>FAQ</NavLink>
         </div>
         )
     }

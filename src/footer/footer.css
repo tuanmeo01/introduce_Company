@@ -1,0 +1,15 @@
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: red; */
+    color: rgb(161, 161, 161);
+    text-align: center;
+    border-top: 2px solid grey;
+    opacity: 70%;
+  }.footer-top{
+    margin: 0;
+    position: relative;
+    top: 20px;
+  }

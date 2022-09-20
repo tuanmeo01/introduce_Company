@@ -1,0 +1,36 @@
+.team-container {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.column {
+    left: 1000px;
+    float: left;
+    padding: 5px;
+    
+}
+
+.img {
+    width: 90%;
+    height: auto;
+    
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+
+}
+
+.info-name {
+    opacity: 50%;
+    font-style: italic;
+    
+}
