@@ -8,7 +8,7 @@ import {
         return(
             <div className="topnav">
             <NavLink to="/" activeClassName="active" exact={true}>Home</NavLink>
-            <NavLink to="/hire" activeClassName="active" exact={true}>Hire</NavLink>
+            <NavLink to="/product" activeClassName="active" exact={true}>Products</NavLink>
             <NavLink to="/service" activeClassName="active" exact={true}>Service</NavLink>
             <NavLink to="/team" activeClassName="active" exact={true}>Team</NavLink>
             <NavLink to="/faq" activeClassName="active" exact={true}>FAQ</NavLink>
