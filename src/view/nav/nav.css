@@ -19,7 +19,6 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  /* background-color: #ddd; */
   color: darkred;
   font-size: 23px;
   transition: all 300ms;

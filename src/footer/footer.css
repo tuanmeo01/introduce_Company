@@ -1,13 +1,14 @@
 .footer {
-    /* position: fixed; */
+    position: fixed;
+    /* position: inherit; */
     left: 0;
     bottom: 0;
     width: 100%;
-    /* background-color: red; */
-    color: rgb(161, 161, 161);
+    color: rgb(138, 137, 137);
     text-align: center;
     border-top: 2px solid grey;
     opacity: 70%;
+    background-color: rgb(228, 226, 226);
   }.footer-top{
     margin: 0;
     position: relative;

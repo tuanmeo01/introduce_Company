@@ -8,14 +8,14 @@ class Team extends React.Component {
     render() {
         return (
             <>
-                <div className="team-container">
-                    <div className="text">
+                <div className="text">
                         <h1 className="heading">
                             Join my Team
                         </h1>
-                        <p className="info-name">--------------</p>
+                        <p className="title-border"></p>
                         <p className="info-name"> Come to us and we will make miracles</p>
                     </div>
+                <div className="team-container">
                     <div class="row">
                         <div class="column">
                             <img className="img" src={img1}></img>
@@ -47,6 +47,10 @@ class Team extends React.Component {
                         </div>
                     </div>
                 </div>
+                    <div class="btn-5">
+                        <p>Join now</p>
+                    </div>
+                
             </>
         )
     }
