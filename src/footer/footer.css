@@ -1,5 +1,5 @@
 .footer {
-    position: fixed;
+    position: fixed;  
     /* position: inherit; */
     left: 0;
     bottom: 0;
@@ -9,8 +9,11 @@
     border-top: 2px solid grey;
     opacity: 70%;
     background-color: rgb(228, 226, 226);
+    
   }.footer-top{
     margin: 0;
     position: relative;
-    top: 20px;
+    top: 10px;
+    line-height: 20px;
+   
   }
